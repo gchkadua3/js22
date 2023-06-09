@@ -1,6 +1,6 @@
 let counter = document.getElementById('number');
 let counterSecond = 1;
-let counterInt = setInterval(updateCounter, 300);
+let counterInt = setInterval(updateCounter, 2000);
 
 document.body.style.display = 'flex';
 document.body.style.justifyContent = 'center';
